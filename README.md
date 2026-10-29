@@ -130,20 +130,6 @@ horizon-launcher
 лаунчер, поэтому Horizon ничего не «взламывает»: файлы просто берутся напрямую
 у Mojang, а не из установки, привязанной к аккаунту.
 
-## Публикация на GitHub
-
-```bash
-git init
-git config user.name "ZLOY"
-git config user.email "ZLOY13131313@admin.com"
-git add .
-git commit -m "Подготовлен кроссплатформенный загрузчик Horizon"
-```
-
-Порт сделан по запросу команды Horizon. Перед публикацией укажи ссылку на
-оригинальный проект и согласуй с командой Horizon способ публикации и лицензию.
-Английская пошаговая инструкция находится в [`README.en.md`](README.en.md).
-
 ## Благодарности
 
 Оригинальная идея и скрипт — [slycat555/horizon-offline-setup](https://gitea.com/slycat555/horizon-offline-setup).
