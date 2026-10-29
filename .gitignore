@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Незавершённые загрузки скрипта
+*.part
+
+# ОС/редактор
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
