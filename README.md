@@ -2,6 +2,21 @@
 
 [English version → README.en.md](README.en.md)
 
+![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
+![Windows x64 tested](https://img.shields.io/badge/Windows-x64%20tested-0078D6?logo=windows&logoColor=white)
+![Horizon](https://img.shields.io/badge/Horizon-Rust%20client-6E40C9)
+![No dependencies](https://img.shields.io/badge/dependencies-standard%20library-2ea44f)
+
+> 🎮 Один скрипт, чистая установка Horizon и оффлайн-игра без лишних костылей.
+> Minecraft-файлы не хранятся в репозитории: они скачиваются с публичных серверов
+> Mojang и проверяются по SHA-1.
+
+<p align="center">
+  <img src="docs/images/horizon-launcher.png" alt="Horizon launcher with the selected offline version" width="900">
+</p>
+
+<p align="center"><sub>Horizon launcher with a prepared 26.3 installation.</sub></p>
+
 Играй в [Horizon](https://playhorizon.dev) — клиент Minecraft: Java Edition 26.3,
 переписанный на Rust — со своим лаунчером, **полностью оффлайн и без аккаунта
 Microsoft** (однопользовательская игра, LAN, серверы в offline-режиме).
@@ -33,6 +48,16 @@ Horizon (~555 МБ):
 недостающее и повреждённое. Оборванный файл скачивается заново целиком;
 возобновления с последнего байта нет. Уже существующий version JSON
 скрипт пока не перепроверяет.
+
+<details>
+<summary>✨ Что получится после установки</summary>
+
+1. Папка Minecraft 26.3 с клиентом, сервером, библиотеками и нужными ассетами.
+2. Подготовленные ресурсы, которые понимает Horizon.
+3. Оффлайн-имя и запуск из окна лаунчера без Microsoft-аккаунта, если включён
+   `dev_offline`.
+
+</details>
 
 ## Отличия от оригинала (Linux-only → кросс-платформа)
 
@@ -124,3 +149,9 @@ git commit -m "Подготовлен кроссплатформенный за�
 Оригинальная идея и скрипт — [slycat555/horizon-offline-setup](https://gitea.com/slycat555/horizon-offline-setup).
 Кроссплатформенный порт, правки SHA-1 и разбор `dev_offline` в лаунчере
 выполнены в рамках этой работы.
+
+<p align="center">
+  <img src="docs/images/orbital-wheel.png" alt="Orbital Laser wheel running in Horizon" width="900">
+</p>
+
+<p align="center"><sub>Пример Horizon с модом Orbital Laser после подготовки ресурсов.</sub></p>

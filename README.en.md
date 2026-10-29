@@ -2,6 +2,21 @@
 
 [Русская версия → README.md](README.md)
 
+![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
+![Windows x64 tested](https://img.shields.io/badge/Windows-x64%20tested-0078D6?logo=windows&logoColor=white)
+![Horizon](https://img.shields.io/badge/Horizon-Rust%20client-6E40C9)
+![No dependencies](https://img.shields.io/badge/dependencies-standard%20library-2ea44f)
+
+> 🎮 One script, a clean Horizon setup, and offline play without launcher hacks.
+> Minecraft files are never stored in this repository: they are downloaded from
+> Mojang's public servers and checked against SHA-1.
+
+<p align="center">
+  <img src="docs/images/horizon-launcher.png" alt="Horizon launcher with the selected offline version" width="900">
+</p>
+
+<p align="center"><sub>Horizon launcher with a prepared 26.3 installation.</sub></p>
+
 Cross-platform downloader for the files required by [Horizon](https://playhorizon.dev),
 the Rust rewrite of Minecraft: Java Edition 26.3.
 
@@ -107,6 +122,16 @@ The script never stores Minecraft files in this repository. Re-running it skips
 valid files and replaces files whose SHA-1 does not match. It does not resume an
 interrupted transfer from the last byte.
 
+<details>
+<summary>✨ What you get after setup</summary>
+
+1. A Minecraft 26.3 folder with the client, server, libraries and required assets.
+2. Prepared resources understood by Horizon.
+3. Offline names and GUI launching without a Microsoft account when `dev_offline`
+   is enabled.
+
+</details>
+
 ## Troubleshooting
 
 - **`26.3 not found or an unknown republish`**: Mojang published a new manifest
@@ -126,3 +151,9 @@ interrupted transfer from the last byte.
 Original project and idea: [slycat555/horizon-offline-setup](https://gitea.com/slycat555/horizon-offline-setup).
 The cross-platform port, Windows support, SHA-1 updates and offline-launcher
 documentation were prepared for the Horizon team.
+
+<p align="center">
+  <img src="docs/images/orbital-wheel.png" alt="Orbital Laser wheel running in Horizon" width="900">
+</p>
+
+<p align="center"><sub>Example Horizon setup with Orbital Laser running after resource preparation.</sub></p>
