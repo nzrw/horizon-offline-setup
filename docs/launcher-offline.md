@@ -53,7 +53,8 @@ Java Edition. Оффлайн-имя (singleplayer, LAN, offline-mode серве�
 1. **GUI**: 7 кликов по версии в сайдбаре → Настройки → Developer options →
    «Offline names without an account».
 2. **Файл**: добавить `"dev_offline": true` в
-   `%APPDATA%\horizon-launcher\settings.json`.
+   `$env:APPDATA\horizon-launcher\settings.json` (в `cmd.exe` —
+   `%APPDATA%\horizon-launcher\settings.json`).
 
 После этого запускать игру **из окна**, не через `horizon-launcher play`.
 
